@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pog Score</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="screen">
+        <div class="card">
+            <img class=""
+                src="https://images.unsplash.com/photo-1576617497557-22895ee5930b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cGluZyUyMHBvbmd8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                alt="">
+            <h1>Ping Pong Score Keeper!!</h1>
+            <h2><span id="p1Display">0</span> to <span id="p2Display">0</span> </h2>
+            <div class="keepScore">
+                <p>Use the button below to keep score.</p>
+                <label for="playTo">Playing to: </label>
+                <select class="" name="" id="playTo">
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <div class="buttons">
+                <button id="p1Button" class="btn btn-primary">+1 Player One</button>
+                <button id="p2Button" class="btn btn-success">+1 Player Two</button>
+                <button id="reset" class="btn btn-warning">Reset</button>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>

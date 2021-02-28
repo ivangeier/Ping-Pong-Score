@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.screen {
+    min-height: 100vh;
+    background-color: rgb(158, 198, 206);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.card {
+   background-color: azure;
+   min-width: 40vh;
+   display: flex;
+   flex-direction: column;
+}
+
+.card img {
+    width: 100%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(147, 139, 139);
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.keepScore {
+   padding: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content:space-around;
+    margin: 10px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    min-height: 2em;
+    min-width: 150px;
+    border: none;
+    background-color: greenyellow;
+}
+
+.win {
+    color: green;
+}
+
+.lose {
+    color: red;
+}
